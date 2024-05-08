@@ -2,15 +2,15 @@ apiVersion: v1
 entries:
   tetrate-istio:
   - apiVersion: v2
-    appVersion: 1.21.0+tetrate1
-    created: "2024-05-07T23:51:48.232713028Z"
+    appVersion: 1.21.0-tetrate1
+    created: "2024-05-08T23:44:35.707183438Z"
     dependencies:
     - name: tid-base
       repository: ""
-      version: 1.21.0+tetrate1
+      version: 1.21.0-tetrate1
     description: Tetrate Istio Distro Istiod is simple, safe enterprise-grade Service
       Mesh.
-    digest: 5995196bef4a6196acf34b536256717730eb9cb72c041af8634dd9f0f7aafef3
+    digest: e689f4b182d50dcb05566d5ce534b72b7285f596e01c37b1f94ce9199a1cde71
     home: https://istio.tetratelabs.io
     icon: https://istio.tetratelabs.io/images/getistio-favicon.png
     keywords:
@@ -28,14 +28,43 @@ entries:
       url: https://tetrate.io
     name: tetrate-istio
     urls:
-    - https://github.com/mdamt/test-archives/releases/download/tetrate-istio-1.21.0+tetrate1/tetrate-istio-1.21.0+tetrate1.tgz
-    version: 1.21.0+tetrate1
+    - https://github.com/mdamt/test-archives/releases/download/tetrate-istio-1.21.0-tetrate1/tetrate-istio-1.21.0-tetrate1.tgz
+    version: 1.21.0-tetrate1
+  - apiVersion: v2
+    appVersion: 1.21.0-tetrate1
+    created: "2024-05-08T23:44:35.707183438Z"
+    dependencies:
+    - name: tid-base
+      repository: ""
+      version: 1.21.0-tetrate1
+    description: Tetrate Istio Distro Istiod is simple, safe enterprise-grade Service
+      Mesh.
+    digest: e689f4b182d50dcb05566d5ce534b72b7285f596e01c37b1f94ce9199a1cde71
+    home: https://istio.tetratelabs.io
+    icon: https://istio.tetratelabs.io/images/getistio-favicon.png
+    keywords:
+    - istio
+    - istiod
+    - istio-discovery
+    - tid
+    - tetrate
+    - distribution
+    - networking
+    - infrastructure
+    maintainers:
+    - email: tetrate@tetrate.io
+      name: tetrate
+      url: https://tetrate.io
+    name: tetrate-istio
+    urls:
+    - https://github.com/mdamt/test-archives/releases/download/tetrate-istio-1.21.0-tetrate1/tetrate-istio-1.21.0-tetrate1.tgz
+    version: 1.21.00001
   tid-base:
   - apiVersion: v1
-    appVersion: 1.21.0+tetrate1
-    created: "2024-05-07T23:51:48.29236929Z"
+    appVersion: 1.21.0-tetrate1
+    created: "2024-05-08T23:44:35.768792704Z"
     description: Helm chart for deploying Istio cluster resources and CRDs
-    digest: 754fae138721bd3f73b1964d3de8fd74c689f64742bda8b551328e0aadd3ff18
+    digest: ef224686bab1185e3da83d8c9dc4882bdf82a5720c0f50e0e969f925f3b9fd4f
     home: https://istio.tetratelabs.io
     icon: https://istio.tetratelabs.io/images/getistio-favicon.png
     keywords:
@@ -53,6 +82,30 @@ entries:
       url: https://tetrate.io
     name: tid-base
     urls:
-    - https://github.com/mdamt/test-archives/releases/download/tid-base-1.21.0+tetrate1/tid-base-1.21.0+tetrate1.tgz
-    version: 1.21.0+tetrate1
-generated: "2024-05-08T06:51:49.811521+07:00"
+    - https://github.com/mdamt/test-archives/releases/download/tid-base-1.21.0-tetrate1/tid-base-1.21.0-tetrate1.tgz
+    version: 1.21.0-tetrate1
+  - apiVersion: v1
+    appVersion: 1.21.0-tetrate1
+    created: "2024-05-08T23:44:35.768792704Z"
+    description: Helm chart for deploying Istio cluster resources and CRDs
+    digest: ef224686bab1185e3da83d8c9dc4882bdf82a5720c0f50e0e969f925f3b9fd4f
+    home: https://istio.tetratelabs.io
+    icon: https://istio.tetratelabs.io/images/getistio-favicon.png
+    keywords:
+    - istio
+    - istiod
+    - istio-discovery
+    - tid
+    - tetrate
+    - distribution
+    - networking
+    - infrastructure
+    maintainers:
+    - email: tetrate@tetrate.io
+      name: tetrate
+      url: https://tetrate.io
+    name: tid-base
+    urls:
+    - https://github.com/mdamt/test-archives/releases/download/tid-base-1.21.0-tetrate1/tid-base-1.21.0-tetrate1.tgz
+    version: 1.21.00001
+generated: "2024-05-09T06:44:41.978394+07:00"
