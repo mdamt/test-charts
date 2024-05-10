@@ -3,14 +3,14 @@ entries:
   tetrate-istio:
   - apiVersion: v2
     appVersion: 1.21.0-tetrate1
-    created: "2024-05-08T23:58:30.958607823Z"
+    created: "2024-05-10T00:46:43.309530169Z"
     dependencies:
     - name: tid-base
       repository: ""
       version: 1.21.0+tetrate1
     description: Tetrate Istio Distro Istiod is simple, safe enterprise-grade Service
       Mesh.
-    digest: 7d599ca1a64da0a5f2cc18880b072d1c0407de2c0414a8e0282b2d3b4139d386
+    digest: 9940ff8076fbff0720e346e2ff7f78ae6230b0b2dea7dc4f9507c6dbb1bfa0ea
     home: https://istio.tetratelabs.io
     icon: https://istio.tetratelabs.io/images/getistio-favicon.png
     keywords:
@@ -32,14 +32,14 @@ entries:
     version: 1.21.0+tetrate1
   - apiVersion: v2
     appVersion: 1.21.0-tetrate1
-    created: "2024-05-08T23:58:30.958607823Z"
+    created: "2024-05-10T00:46:43.309530169Z"
     dependencies:
     - name: tid-base
       repository: ""
       version: 1.21.0+tetrate1
     description: Tetrate Istio Distro Istiod is simple, safe enterprise-grade Service
       Mesh.
-    digest: 7d599ca1a64da0a5f2cc18880b072d1c0407de2c0414a8e0282b2d3b4139d386
+    digest: 9940ff8076fbff0720e346e2ff7f78ae6230b0b2dea7dc4f9507c6dbb1bfa0ea
     home: https://istio.tetratelabs.io
     icon: https://istio.tetratelabs.io/images/getistio-favicon.png
     keywords:
@@ -62,9 +62,9 @@ entries:
   tid-base:
   - apiVersion: v1
     appVersion: 1.21.0-tetrate1
-    created: "2024-05-08T23:58:31.052519414Z"
+    created: "2024-05-10T00:46:43.369495806Z"
     description: Helm chart for deploying Istio cluster resources and CRDs
-    digest: 7c1af657a76276f7f6b5741f0e372d37a9c533b817cb3f6f2ffa469ceb0e35b9
+    digest: 827a99a85c7c4b1f07acff41a94d1948c318422acaac393479ce40c416168f66
     home: https://istio.tetratelabs.io
     icon: https://istio.tetratelabs.io/images/getistio-favicon.png
     keywords:
@@ -86,9 +86,9 @@ entries:
     version: 1.21.0+tetrate1
   - apiVersion: v1
     appVersion: 1.21.0-tetrate1
-    created: "2024-05-08T23:58:31.052519414Z"
+    created: "2024-05-10T00:46:43.369495806Z"
     description: Helm chart for deploying Istio cluster resources and CRDs
-    digest: 7c1af657a76276f7f6b5741f0e372d37a9c533b817cb3f6f2ffa469ceb0e35b9
+    digest: 827a99a85c7c4b1f07acff41a94d1948c318422acaac393479ce40c416168f66
     home: https://istio.tetratelabs.io
     icon: https://istio.tetratelabs.io/images/getistio-favicon.png
     keywords:
@@ -108,4 +108,4 @@ entries:
     urls:
     - https://github.com/mdamt/test-archives/releases/download/tid-base-1.21.0+tetrate1/tid-base-1.21.0+tetrate1.tgz
     version: 1.21.00001
-generated: "2024-05-09T06:58:32.271947+07:00"
+generated: "2024-05-10T07:46:44.331519+07:00"
