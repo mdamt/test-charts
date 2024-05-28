@@ -2,14 +2,14 @@ apiVersion: v1
 entries:
   tetrate-istio:
   - apiVersion: v2
-    created: "2024-05-27T20:42:14.321347+07:00"
+    created: "2024-05-28T16:05:54.714431+07:00"
     dependencies:
     - name: tid-base
       repository: file://./charts/tid-base
       version: 1.20.3
     description: Tetrate Istio Distro Istiod is simple, safe enterprise-grade Service
       Mesh.
-    digest: b17a38540c55a0bed62eee0e0449fdc3a66dd96550e0fa4bdcb06a52f3ddbba9
+    digest: 39784e971accb0f0a659707a069a0312bcc36484e99d7e704ef84709048826c3
     home: https://istio.tetratelabs.io
     icon: https://istio.tetratelabs.io/images/getistio-favicon.png
     keywords:
@@ -31,9 +31,9 @@ entries:
   tid-base:
   - apiVersion: v1
     appVersion: 1.20.3
-    created: "2024-05-27T20:42:14.322828+07:00"
+    created: "2024-05-28T16:05:54.715802+07:00"
     description: Helm chart for deploying Istio cluster resources and CRDs
-    digest: f41285353e3c7471f62e7dd7775b07df2dbdcac42f0b9ab1d36f2704897a8927
+    digest: d420bfa0ef86c8b1fa3f611a5c3b2a4c3ac7662676be66cc4c11cecd27d70800
     home: https://istio.tetratelabs.io
     icon: https://istio.tetratelabs.io/images/getistio-favicon.png
     keywords:
@@ -52,4 +52,4 @@ entries:
     urls:
     - https://github.com/mdamt/test-archives/releases/download/tid-base-1.20.3/tid-base-1.20.3.tgz
     version: 1.20.3
-generated: "2024-05-27T20:42:14.316106+07:00"
+generated: "2024-05-28T16:05:54.709583+07:00"
